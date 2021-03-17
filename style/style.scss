@@ -1,0 +1,36 @@
+*{padding: 0; margin: 0; border: 0;}
+*,*:before,*:after{-moz-box-sixing: border-box;-webkit-box-sizing: border-box; box-sizing: border-box;}
+:focus, active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-family:'Circe Regular';color:#FFF;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+a,a:visited{text-decoration: none; color:#FFF;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-family:Roboto,sans-serif;font-size: inherit;font-weight: inherit;}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+@font-face {
+	font-family: 'Circe Regular';
+	src: url('../fonts/Circe-Regular.eot');
+	src: url('Circe-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Circe-Regular.woff') format('woff'),
+	url('../fonts/Circe-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+@mixin regular {
+	font-family: 'Circe Regular';
+}
+
+@import "_header";
+@import "_top";

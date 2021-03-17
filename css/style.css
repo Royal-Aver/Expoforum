@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sixing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Circe Regular';
+  color: #FFF;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto,sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@font-face {
+  font-family: 'Circe Regular';
+  src: url("../fonts/Circe-Regular.eot");
+  src: url("Circe-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe-Regular.woff") format("woff"), url("../fonts/Circe-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.header__container {
+  max-width: 1590px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__inner {
+  font-family: 'Circe Regular';
+  font-size: 16px;
+  line-height: 135%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 33px 0 33px;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu__list-link + .menu__list-link {
+  margin-left: 47px;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.right__search-img {
+  margin-right: 70px;
+}
+
+.right__language-img {
+  margin-right: 11px;
+}
+
+.top {
+  background-image: url(../images/bg-top.jpg);
+}
+
+.top__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 274px 0 53px;
+}
+
+.top__main-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 60%;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.top__main-text {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 25px;
+  max-width: 400px;
+}
+
+.top__main-link {
+  font-size: 16px;
+  line-height: 135%;
+}
