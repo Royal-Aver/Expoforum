@@ -139,6 +139,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .top {
   background-image: url(../images/bg-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .top__inner {
@@ -148,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 274px 0 53px;
+  padding: 274px 0 23px;
 }
 
 .top__main-title {
@@ -169,4 +171,65 @@ h1, h2, h3, h4, h5, h6 {
 .top__main-link {
   font-size: 16px;
   line-height: 135%;
+}
+
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+.top__blocks {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 170px;
+}
+
+.blocks__item {
+  max-width: 255px;
+  padding: 30px 0;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.block__blue {
+  background: #2378FC;
+}
+
+.block__green {
+  background: #30BCC9;
+}
+
+.block__yellow {
+  background: #FFC41E;
+}
+
+.block__red {
+  background: #F6404F;
+}
+
+.blocks__item-title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  margin-bottom: 15px;
 }
